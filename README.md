@@ -1,6 +1,9 @@
 # İkinci-El-Araba-Fiyat-Tahmini-Gözetimli-ve-Gözetimsiz-renme
 Colab üzerinden aynı veri seti üzerinden gözetimli öğrenmede GradientBoostingRegressor algoritması gözetimsiz öğrenmede K-Means ile başarı oranları karşılaştırılmıştır.
 
+# Kaggle Proje Linki
+https://www.kaggle.com/code/muhammedkoca/arac-fiyat-tahmini
+
 # Projenin Amacı
 Bu proje Veri seti, amerika da ikinci el araç fiyatlarının açık arttırma da fiyat tahmini yapmaktadır. İnternet üzerindeki dış kaynaklardan toplanan verilerden oluşmaktadır. Veri seti 2015 yılında toplanmıştır.
 
