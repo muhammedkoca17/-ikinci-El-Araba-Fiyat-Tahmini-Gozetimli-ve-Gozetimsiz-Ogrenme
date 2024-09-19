@@ -34,4 +34,4 @@ from sklearn.model_selection import cross_validate
 from sklearn.metrics import r2_score,mean_squared_error
 
 # Model Seçimi
-En iyi performansı veren algoritma seçilir, hiperparametre optimize edilir ve seçilen algoritmanın değerlendirilmesi yapılır. Bu projede en iyi performansı veren regresyon modelinin Ridge olduğuna karar verilmiştir. Değerlendirme sürecinde bu projede **Ortalama Karesel Hata(Mean Squared Error)**, **Ortalama Mutlak Hata(Mean Absolute Error)** kullanılmıştır.
+En iyi performansı veren algoritma seçilir, onun için R-kare, modelinizin veri setindeki değişkenliği ne kadar açıkladığını gösterir. 1.0 değeri mükemmel uyumu, 0.0 değeri ise hiçbir uyumu ifade etmez. hiperparametre optimize edilir ve seçilen algoritmanın değerlendirilmesi yapılır. Bu yüzden cross validationdan sonuc olarak en iyi performansı gösteren model, RANDOM FOREST REGRESSION olarak belirlenmiştir. Daha sonra değerlendirme sürecinde bu projede **Ortalama Karesel Hata(Mean Squared Error)**, **Ortalama Mutlak Hata(Mean Absolute Error)** kullanılmıştır.
