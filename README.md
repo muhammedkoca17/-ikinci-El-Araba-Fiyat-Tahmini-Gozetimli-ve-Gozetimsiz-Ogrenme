@@ -6,22 +6,22 @@ Bu proje Veri seti, amerika da ikinci el araç fiyatlarının açık arttırma d
 
 # Veri Seti
 Kullanılan veri seti, 558811 satırdan oluşmaktadır.
--year: araç üretim yılı
--make: araç üretici firma
--model: aracın modeli
--trim: donanım paketi hakkında bilgi vermektedir
--body: araç gövdesi hakkında bilgiler vermektedir.
--transmiision: sansıman hakkında bilgiler.
--vin: benzersiz araç kimlik numarasını vermektedir
--state: aracın kayıtlı olduğu eyalet vermektedir.
--condition: aracın ilk günkü haliden kalan kondisyon puan üzerinden değeri.
--odometer: aracın km sayacı
--color: araç dış renk
--interior: araç iç renk
--seller: aracı satan firma
--mmr: aracın piyasa değeri
--sellingprice: aracın satış fiyatı
--saledate: aracın satıs fiyatı
+**-year:** araç üretim yılı
+**-make:** araç üretici firma
+**-model:** aracın modeli
+**-trim:** donanım paketi hakkında bilgi vermektedir
+**-body:** araç gövdesi hakkında bilgiler vermektedir.
+**-transmiision:** sansıman hakkında bilgiler.
+**-vin:** benzersiz araç kimlik numarasını vermektedir
+**-state:** aracın kayıtlı olduğu eyalet vermektedir.
+**-condition:** aracın ilk günkü haliden kalan kondisyon puan üzerinden değeri.
+**-odometer:** aracın km sayacı
+**-color:** araç dış renk
+**-interior:** araç iç renk
+**-seller:** aracı satan firma
+**-mmr:** aracın piyasa değeri
+**-sellingprice:** aracın satış fiyatı
+**-saledate:** aracın satıs fiyatı
 
 # Değişekenler
 Bağımlı değişken(y) "satış fiyatı" sütunu, bağımsız değişkenler(x) ise "satış fiyatı" sütunu hariç tüm satırlar olarak belirlenmiştir. Çeşitli regresyon algoritmaları denenerek bağımlı değişkeni bulmaya çalışılır. Bu projede kullanılan regresyon algoritmaları:
